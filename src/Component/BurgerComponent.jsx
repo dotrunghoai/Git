@@ -11,6 +11,7 @@ class BurgerComponent extends Component {
             return contentA
         })
     }
+    a = 0
     renderMenu = () => {
         return Object.entries(this.props.giaTaskBanh).map(([tenBien, giaTri], index) => {
             return (
